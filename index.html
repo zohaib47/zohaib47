@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="wrap">
+                <form name="cal">
+                    <input type="text" id="input" name="display">  
+                    <br><br>
+                    <input type="button" value="AC" class="btnall" id="pers" onclick="cal.display.value =' '">
+                    <input type="button" value="X" class="btnall" id="pers" onclick="cal.display.value +='X'">
+                    <input type="button" value="%" class="btnall" id="pers" onclick="cal.display.value +='%'">
+                    <input type="button" value="+" class="btnall" id="plus " onclick="cal.display.value +='+'">
+                    <br><br>
+                    <input type="button" value="9" class="btnall" id="nine" onclick="cal.display.value +='9'">
+                    <input type="button" value="8" class="btnall" id="eight " onclick="cal.display.value +='8'">
+                    <input type="button" value="7" class="btnall" id="seven " onclick="cal.display.value +='7'">
+                    <input type="button" value="-" class="btnall" id=" sub" onclick="cal.display.value +='-'">
+                    <br><br> 
+                    <input type="button" value="6" class="btnall" id="six " onclick="cal.display.value +='6'">
+                    <input type="button" value="5" class="btnall" id="five " onclick="cal.display.value +='5'">
+                    <input type="button" value="4" class="btnall" id="four " onclick="cal.display.value +='4'">
+                    <input type="button" value="*" class="btnall" id="mult" onclick="cal.display.value +='*'">
+                    <br><br> 
+                    <input type="button" value="3" class="btnall" id="three" onclick="cal.display.value +='3'">
+                    <input type="button" value="2" class="btnall" id="two" onclick="cal.display.value +='2'">
+                    <input type="button" value="1" class="btnall" id="one" onclick="cal.display.value +='1'">
+                    <input type="button" value="/" class="btnall" id="divd" onclick="cal.display.value +='/'">
+                    <br><br>
+                    <input type="button" value="0" class="btnall" id="zero" onclick="cal.display.value +='0'">
+                    <input type="button" value="00" class="btnall" id="zero" onclick="cal.display.value +='00'">
+                    <input type="button" value="." class="btnall" id="zero" onclick="cal.display.value +='.'">
+                    <input type="button" value="=" class="btnall" id="equal" onclick="cal.display.value= eval(cal.display.value)">
+                    <br><br>
+                </form>
+    </div>
+    <script src="/javascript/java.js"></script>
+</body>
+</html>
